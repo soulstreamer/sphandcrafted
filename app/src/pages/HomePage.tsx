@@ -54,7 +54,6 @@ function HeroSection() {
       {/* Video Background */}
       <video
         ref={videoRef}
-        src="/videos/hero-final.mp4"
         autoPlay
         muted
         loop
@@ -62,7 +61,11 @@ function HeroSection() {
         preload="auto"
         poster="/images/hero-poster.jpg"
         className="absolute inset-0 w-full h-full object-cover z-0"
-      />
+      >
+        <source src="/videos/hero-mobile.webm" type="video/webm" media="(max-width: 768px)" />
+        <source src="/videos/hero-final.webm" type="video/webm" />
+        <source src="/videos/hero-final.mp4" type="video/mp4" />
+      </video>
       {/* Dark overlay for text readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#030303]/60 via-[#030303]/30 to-[#030303]/80 z-[1]" />
 

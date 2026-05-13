@@ -642,23 +642,25 @@ function AboutSection() {
       className="py-24 px-5 lg:px-20 bg-[#030303]"
     >
       <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <div className="about-img rounded-lg overflow-hidden mx-auto w-full max-w-sm lg:max-w-none">
-          <img
-            src="/images/about.jpg"
-            alt="Artisan crafting a Damascus blade"
-            className="w-full h-auto object-cover"
-            loading="lazy"
-          />
+        <div className="flex justify-center">
+          <div className="about-img rounded-lg overflow-hidden w-full max-w-sm lg:max-w-none">
+            <img
+              src="/images/about.jpg"
+              alt="Artisan crafting a Damascus blade"
+              className="w-full h-auto object-cover"
+              loading="lazy"
+            />
+          </div>
         </div>
-        <div className="about-text text-center lg:text-left flex flex-col items-center lg:items-start">
-          <h2 className="section-heading">{t("about.heading")}</h2>
-          <p className="font-inter text-gray-300 text-base leading-relaxed mt-5">
+        <div className="flex flex-col items-center lg:items-start">
+          <h2 className="section-heading text-center lg:text-left">{t("about.heading")}</h2>
+          <p className="font-inter text-gray-300 text-base leading-relaxed mt-5 text-center lg:text-left max-w-lg">
             {t("about.p1")}
           </p>
-          <p className="font-inter text-gray-300 text-base leading-relaxed mt-4">
+          <p className="font-inter text-gray-300 text-base leading-relaxed mt-4 text-center lg:text-left max-w-lg">
             {t("about.p2")}
           </p>
-          <Link to="/how-its-forged" className="btn-outline mt-6 inline-block">
+          <Link to="/how-its-forged" className="btn-outline mt-6">
             {t("about.cta")}
           </Link>
         </div>

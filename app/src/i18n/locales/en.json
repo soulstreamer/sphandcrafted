@@ -4,7 +4,8 @@
     "shop": "Shop",
     "howItsMade": "How It's Made",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "auction": "Auction"
   },
   "announcement": "FREE SHIPPING ON ORDERS OVER 200 EUR",
   "hero": {
@@ -215,5 +216,27 @@
     "refund": "REFUND & RETURNS POLICY",
     "lastUpdated": "Last updated: January 2026.",
     "contactUs": "contact us"
+  },
+  "auction": {
+    "heading": "LIVE AUCTIONS",
+    "subtitle": "Bid on exclusive handcrafted blades. Each piece is one-of-a-kind, forged with passion and precision. Place your bid before time runs out.",
+    "liveBadge": "LIVE",
+    "currentBid": "Current Bid",
+    "bids": "Bids",
+    "minBid": "Min Bid",
+    "placeBid": "Place Bid",
+    "backToList": "Back to Auctions",
+    "specifications": "Specifications",
+    "placeYourBid": "Place Your Bid",
+    "bidAmount": "Bid Amount",
+    "minNextBid": "Min",
+    "submitBid": "SUBMIT BID",
+    "bidSuccess": "Bid placed successfully!",
+    "bidHistory": "Bid History",
+    "ended": "Auction Ended",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
   }
 }

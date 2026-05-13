@@ -102,6 +102,13 @@ export default function Header() {
             >
               {t("nav.howItsMade")}
             </Link>
+            <span className="inline-block w-px h-5 bg-white/80 mx-2" />
+            <Link
+              to="/auction"
+              className="font-oswald font-medium uppercase text-xs tracking-[0.1em] text-orange-500 relative after:absolute after:bottom-[-2px] after:left-0 after:h-[2px] after:bg-orange-500 after:transition-all after:duration-300 after:w-0 hover:after:w-full px-3"
+            >
+              {t("nav.auction")}
+            </Link>
           </div>
 
           {/* Logo */}
@@ -272,6 +279,12 @@ export default function Header() {
               >
                 {t("nav.contact")}
               </button>
+              <Link
+                to="/auction"
+                className="font-oswald font-medium uppercase text-sm tracking-[0.1em] text-orange-500 hover:text-orange-400 transition-colors"
+              >
+                {t("nav.auction")}
+              </Link>
             </div>
           </div>
         )}

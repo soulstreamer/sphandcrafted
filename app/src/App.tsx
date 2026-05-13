@@ -8,6 +8,7 @@ import ProductPage from "./pages/ProductPage";
 import CartPage from "./pages/CartPage";
 import PolicyPage from "./pages/PolicyPage";
 import HowItsForged from "./pages/HowItsForged";
+import AuctionPage from "./pages/AuctionPage";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
         <Route path="/delivery-returns" element={<PolicyPage type="delivery" />} />
         <Route path="/refund-policy" element={<PolicyPage type="refund" />} />
         <Route path="/how-its-forged" element={<HowItsForged />} />
+        <Route path="/auction" element={<AuctionPage />} />
+        <Route path="/auction/:slug" element={<AuctionPage />} />
       </Routes>
       <Footer />
     </div>

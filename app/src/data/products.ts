@@ -488,3 +488,92 @@ export const getFeaturedProducts = (): Product[] => {
 export const getAdditionalProducts = (): Product[] => {
   return products.filter((p) => !p.isSale && !p.featured);
 };
+
+export interface AuctionItem {
+  id: string;
+  name: string;
+  slug: string;
+  image: string;
+  images: string[];
+  description: string;
+  specifications: { label: string; value: string }[];
+  minBid: number;
+  currentBid: number;
+  endsAt: Date;
+  totalBids: number;
+}
+
+const auctionEndDate = new Date();
+auctionEndDate.setDate(auctionEndDate.getDate() + 3);
+auctionEndDate.setHours(20, 0, 0, 0);
+
+const auctionEndDate2 = new Date();
+auctionEndDate2.setDate(auctionEndDate2.getDate() + 5);
+auctionEndDate2.setHours(18, 0, 0, 0);
+
+const auctionEndDate3 = new Date();
+auctionEndDate3.setDate(auctionEndDate3.getDate() + 7);
+auctionEndDate3.setHours(22, 0, 0, 0);
+
+export const auctionItems: AuctionItem[] = [
+  {
+    id: "auction-1",
+    name: "Damascus Dragon Blade",
+    slug: "damascus-dragon-blade",
+    image: "/images/sale-1.jpg",
+    images: ["/images/sale-1.jpg", "/images/hero-card-1.jpg"],
+    description: "A one-of-a-kind Damascus steel blade featuring an intricate dragon pattern forged into the steel. This masterpiece took over 40 hours to complete, with 300 layers of high-carbon steel folded and twisted to create the mesmerizing dragon scale pattern. The handle is crafted from ancient bog oak with a brass dragon-scale bolster.",
+    specifications: [
+      { label: "Blade Material", value: "Damascus Steel (300 layers)" },
+      { label: "Handle Material", value: "Ancient Bog Oak" },
+      { label: "Blade Length", value: "18 cm" },
+      { label: "Overall Length", value: "32 cm" },
+      { label: "Weight", value: "280g" },
+      { label: "Hardness", value: "60-62 HRC" },
+    ],
+    minBid: 150,
+    currentBid: 175,
+    endsAt: auctionEndDate,
+    totalBids: 8,
+  },
+  {
+    id: "auction-2",
+    name: "Viking War Axe — Collector's Edition",
+    slug: "viking-war-axe-collector",
+    image: "/images/sale-2.jpg",
+    images: ["/images/sale-2.jpg", "/images/hero-card-2.jpg"],
+    description: "A historically-inspired Viking war axe forged from a single billet of 1095 high-carbon steel. The blade features hand-engraved Norse runes along the spine and a hand-forged steel beard. The handle is wrapped in genuine leather with a brass pommel cap shaped like a wolf's head.",
+    specifications: [
+      { label: "Head Material", value: "1095 High-Carbon Steel" },
+      { label: "Handle Material", value: "Ash Wood + Leather Wrap" },
+      { label: "Blade Length", value: "22 cm" },
+      { label: "Overall Length", value: "55 cm" },
+      { label: "Weight", value: "850g" },
+      { label: "Hardness", value: "55-57 HRC" },
+    ],
+    minBid: 200,
+    currentBid: 230,
+    endsAt: auctionEndDate2,
+    totalBids: 12,
+  },
+  {
+    id: "auction-3",
+    name: "Obsidian Black Hunter",
+    slug: "obsidian-black-hunter",
+    image: "/images/sale-3.jpg",
+    images: ["/images/sale-3.jpg", "/images/hero-card-3.jpg"],
+    description: "A stealthy all-black hunting knife with a DLC-coated blade and G10 handle scales. Designed for the modern hunter who demands performance and discretion. The blade features a deep hollow grind for exceptional slicing performance and a swedge spine for precise tip control.",
+    specifications: [
+      { label: "Blade Material", value: "D2 Tool Steel (DLC Coated)" },
+      { label: "Handle Material", value: "Black G10" },
+      { label: "Blade Length", value: "12 cm" },
+      { label: "Overall Length", value: "25 cm" },
+      { label: "Weight", value: "195g" },
+      { label: "Hardness", value: "60-62 HRC" },
+    ],
+    minBid: 120,
+    currentBid: 140,
+    endsAt: auctionEndDate3,
+    totalBids: 5,
+  },
+];

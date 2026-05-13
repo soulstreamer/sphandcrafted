@@ -4,7 +4,8 @@
     "shop": "Boutique",
     "howItsMade": "Fabrication",
     "about": "À propos",
-    "contact": "Contact"
+    "contact": "Contact",
+    "auction": "Enchères"
   },
   "announcement": "LIVRAISON GRATUITE POUR LES COMMANDES DE PLUS DE 200 EUR",
   "hero": {
@@ -215,5 +216,27 @@
     "refund": "POLITIQUE DE REMBOURSEMENT",
     "lastUpdated": "Dernière mise à jour : janvier 2026.",
     "contactUs": "contactez-nous"
+  },
+  "auction": {
+    "heading": "ENCHÈRES EN DIRECT",
+    "subtitle": "Enchérissez sur des lames artisanales exclusives. Chaque pièce est unique, forgée avec passion et précision. Placez votre offre avant la fin du temps imparti.",
+    "liveBadge": "EN DIRECT",
+    "currentBid": "Offre Actuelle",
+    "bids": "Offres",
+    "minBid": "Offre Min",
+    "placeBid": "Placer une Offre",
+    "backToList": "Retour aux Enchères",
+    "specifications": "Spécifications",
+    "placeYourBid": "Placez Votre Offre",
+    "bidAmount": "Montant de l'Offre",
+    "minNextBid": "Min",
+    "submitBid": "SOUMETTRE L'OFFRE",
+    "bidSuccess": "Offre placée avec succès !",
+    "bidHistory": "Historique des Offres",
+    "ended": "Enchère Terminée",
+    "days": "Jours",
+    "hours": "Heures",
+    "minutes": "Minutes",
+    "seconds": "Secondes"
   }
 }

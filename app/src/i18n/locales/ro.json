@@ -4,7 +4,8 @@
     "shop": "Magazin",
     "howItsMade": "Cum se fabrică",
     "about": "Despre",
-    "contact": "Contact"
+    "contact": "Contact",
+    "auction": "Licitații"
   },
   "announcement": "LIVRARE GRATUITĂ PENTRU COMENZI DE PESTE 200 LEI",
   "hero": {
@@ -215,5 +216,27 @@
     "refund": "POLITICA DE RAMBURSARE",
     "lastUpdated": "Ultima actualizare: ianuarie 2026.",
     "contactUs": "contactați-ne"
+  },
+  "auction": {
+    "heading": "LICITAȚII LIVE",
+    "subtitle": "Licitați pentru lame exclusiviste lucrate manual. Fiecare piesă este unică, forjată cu pasiune și precizie. Plasați-vă oferta înainte ca timpul să expire.",
+    "liveBadge": "LIVE",
+    "currentBid": "Oferta Curentă",
+    "bids": "Oferte",
+    "minBid": "Ofertă Min",
+    "placeBid": "Plasează Ofertă",
+    "backToList": "Înapoi la Licitații",
+    "specifications": "Specificații",
+    "placeYourBid": "Plasează-ți Oferta",
+    "bidAmount": "Suma Ofertei",
+    "minNextBid": "Min",
+    "submitBid": "TRIMITE OFERTA",
+    "bidSuccess": "Ofertă plasată cu succes!",
+    "bidHistory": "Istoric Oferte",
+    "ended": "Licitație Încheiată",
+    "days": "Zile",
+    "hours": "Ore",
+    "minutes": "Minute",
+    "seconds": "Secunde"
   }
 }

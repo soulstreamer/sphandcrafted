@@ -4,7 +4,8 @@
     "shop": "Shop",
     "howItsMade": "Herstellung",
     "about": "Über uns",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "auction": "Auktion"
   },
   "announcement": "KOSTENLOSER VERSAND AB 200 EUR BESTELLWERT",
   "hero": {
@@ -215,5 +216,27 @@
     "refund": "RÜCKERSTATTUNGSRICHTLINIE",
     "lastUpdated": "Zuletzt aktualisiert: Januar 2026.",
     "contactUs": "kontaktieren Sie uns"
+  },
+  "auction": {
+    "heading": "LIVE-AUKTIONEN",
+    "subtitle": "Bieten Sie auf exklusive handgefertigte Klingen. Jedes Stück ist ein Unikat, mit Leidenschaft und Präzision geschmiedet. Platzieren Sie Ihr Gebot, bevor die Zeit abläuft.",
+    "liveBadge": "LIVE",
+    "currentBid": "Aktuelles Gebot",
+    "bids": "Gebote",
+    "minBid": "Min Gebot",
+    "placeBid": "Gebot abgeben",
+    "backToList": "Zurück zu Auktionen",
+    "specifications": "Spezifikationen",
+    "placeYourBid": "Platzieren Sie Ihr Gebot",
+    "bidAmount": "Gebotssumme",
+    "minNextBid": "Min",
+    "submitBid": "GEBOT ABGEBEN",
+    "bidSuccess": "Gebot erfolgreich abgegeben!",
+    "bidHistory": "Gebotsverlauf",
+    "ended": "Auktion Beendet",
+    "days": "Tage",
+    "hours": "Stunden",
+    "minutes": "Minuten",
+    "seconds": "Sekunden"
   }
 }

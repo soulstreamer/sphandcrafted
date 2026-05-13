@@ -189,17 +189,17 @@ export default function Header() {
           </div>
 
           {/* Mobile: Cart + Hamburger top-right */}
-          <div className="md:hidden absolute right-2 top-1/2 -translate-y-1/2 z-50 flex items-center gap-2">
+          <div className="md:hidden flex items-center gap-1 ml-auto">
             {/* Mobile Lang Switcher */}
             <div className="relative">
               <button
                 onClick={() => setLangOpen(!langOpen)}
-                className="text-gray-400 hover:text-orange-500 transition-colors font-oswald text-xs uppercase tracking-wider"
+                className="text-gray-400 hover:text-orange-500 transition-colors font-oswald text-[11px] uppercase tracking-wider px-1"
               >
                 {i18n.language.toUpperCase()}
               </button>
               {langOpen && (
-                <div className="absolute top-full right-0 mt-2 bg-[#111111] border border-[#262626] rounded-sm shadow-lg min-w-[70px] overflow-hidden">
+                <div className="absolute top-full right-0 mt-1 bg-[#111111] border border-[#262626] rounded-sm shadow-lg min-w-[70px] overflow-hidden z-50">
                   {languages.map((lang) => (
                     <button
                       key={lang.code}
@@ -218,12 +218,12 @@ export default function Header() {
             </div>
             <button
               onClick={() => setIsCartOpen(true)}
-              className="relative text-white hover:text-orange-500 transition-colors"
+              className="relative text-white hover:text-orange-500 transition-colors p-1"
               aria-label="Cart"
             >
-              <ShoppingBag size={20} />
+              <ShoppingBag size={18} />
               {totalItems > 0 && (
-                <span className="absolute -top-2 -right-2 bg-orange-500 text-white text-[10px] font-oswald font-bold w-4 h-4 rounded-full flex items-center justify-center">
+                <span className="absolute -top-1 -right-1 bg-orange-500 text-white text-[9px] font-oswald font-bold w-3.5 h-3.5 rounded-full flex items-center justify-center">
                   {totalItems}
                 </span>
               )}
@@ -233,7 +233,7 @@ export default function Header() {
               className="text-white hover:text-orange-500 transition-colors p-1"
               aria-label="Menu"
             >
-              {mobileOpen ? <X size={28} /> : <Menu size={28} />}
+              {mobileOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
         </div>

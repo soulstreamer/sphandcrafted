@@ -35,6 +35,15 @@ function HeroSection() {
       ease: "power3.out",
       delay: 0.3,
     });
+
+    // Force video play on mobile (iOS/Android workaround)
+    const video = videoRef.current;
+    if (video) {
+      video.play().catch(() => {});
+      const forcePlay = () => { video.play().catch(() => {}); };
+      document.addEventListener('touchstart', forcePlay, { once: true });
+      return () => document.removeEventListener('touchstart', forcePlay);
+    }
   }, []);
 
   return (
@@ -45,11 +54,13 @@ function HeroSection() {
       {/* Video Background */}
       <video
         ref={videoRef}
-        src="/videos/hero-fixed.mp4"
+        src="/videos/hero-final.mp4"
         autoPlay
         muted
         loop
         playsInline
+        preload="auto"
+        poster="/images/hero-poster.jpg"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />
       {/* Dark overlay for text readability */}

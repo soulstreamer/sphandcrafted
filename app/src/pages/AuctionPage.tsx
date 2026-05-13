@@ -97,7 +97,7 @@ function AuctionTimer({ endsAt }: { endsAt: Date }) {
 /* ─────────── Auction Card (listing) ─────────── */
 function AuctionCard({ item }: { item: AuctionItem }) {
   const { t } = useTranslation();
-  const cardRef = useRef<HTMLDivElement>(null);
+  const cardRef = useRef<HTMLAnchorElement>(null);
 
   useEffect(() => {
     if (!cardRef.current) return;

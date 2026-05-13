@@ -913,7 +913,6 @@ function ContactSection() {
 
 /* ─────────── Main Home Page ─────────── */
 export default function HomePage() {
-  const { t } = useTranslation();
   return (
     <div className="pt-[100px] md:pt-[116px]">
       <HeroSection />

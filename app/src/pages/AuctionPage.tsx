@@ -12,8 +12,10 @@ import {
 } from "lucide-react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { auctionItems, AuctionItem } from "@/data/products";
+import { auctionItems } from "@/data/products";
 import { formatPriceSimple } from "@/utils/formatPrice";
+
+type AuctionItem = (typeof auctionItems)[number];
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -99,17 +101,20 @@ function AuctionCard({ item }: { item: AuctionItem }) {
 
   useEffect(() => {
     if (!cardRef.current) return;
-    gsap.from(cardRef.current, {
-      y: 40,
-      opacity: 0,
-      duration: 0.8,
-      ease: "power3.out",
-      scrollTrigger: {
-        trigger: cardRef.current,
-        start: "top 85%",
-        toggleActions: "play none none none",
-      },
+    const ctx = gsap.context(() => {
+      gsap.fromTo(cardRef.current!, { y: 40, opacity: 0 }, {
+        y: 0,
+        opacity: 1,
+        duration: 0.8,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: cardRef.current!,
+          start: "top 85%",
+          toggleActions: "play none none none",
+        },
+      });
     });
+    return () => ctx.revert();
   }, []);
 
   return (
@@ -186,17 +191,20 @@ function AuctionDetail({ item }: { item: AuctionItem }) {
 
   useEffect(() => {
     if (!detailRef.current) return;
-    gsap.from(detailRef.current.querySelectorAll(".detail-item"), {
-      y: 30,
-      opacity: 0,
-      stagger: 0.1,
-      duration: 0.7,
-      ease: "power3.out",
-      scrollTrigger: {
-        trigger: detailRef.current,
-        start: "top 80%",
-      },
+    const ctx = gsap.context(() => {
+      gsap.fromTo(detailRef.current!.querySelectorAll(".detail-item"), { y: 30, opacity: 0 }, {
+        y: 0,
+        opacity: 1,
+        stagger: 0.1,
+        duration: 0.7,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: detailRef.current!,
+          start: "top 80%",
+        },
+      });
     });
+    return () => ctx.revert();
   }, []);
 
   const minNextBid = currentBid + 5;

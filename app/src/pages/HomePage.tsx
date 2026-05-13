@@ -15,8 +15,9 @@ import {
   Shield,
 } from "lucide-react";
 import CountdownTimer from "@/components/CountdownTimer";
-import { categories, getSaleProducts, getFeaturedProducts, getAdditionalProducts } from "@/data/products";
+import { categories, getSaleProducts, getFeaturedProducts, getAdditionalProducts, auctionItems } from "@/data/products";
 import { formatPriceSimple } from "@/utils/formatPrice";
+import { Gavel, Clock, Flame } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -25,6 +26,7 @@ function HeroSection() {
   const { t } = useTranslation();
   const textRef = useRef<HTMLDivElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
+  const auctionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!textRef.current) return;
@@ -35,6 +37,17 @@ function HeroSection() {
       ease: "power3.out",
       delay: 0.3,
     });
+
+    if (auctionRef.current) {
+      gsap.fromTo(auctionRef.current.children, { y: 20, opacity: 0 }, {
+        y: 0,
+        opacity: 1,
+        duration: 0.8,
+        stagger: 0.1,
+        ease: "power3.out",
+        delay: 0.1,
+      });
+    }
 
     // Force video play on mobile (iOS/Android workaround)
     const video = videoRef.current;
@@ -71,6 +84,41 @@ function HeroSection() {
 
       {/* Hero Content */}
       <div ref={textRef} className="relative z-[2] text-center px-5 max-w-3xl mx-auto">
+        {/* Auction Items */}
+        <div ref={auctionRef} className="mb-8">
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <Gavel size={20} className="text-orange-500" />
+            <span className="font-oswald font-bold uppercase text-orange-500 text-sm tracking-wider">Live Auction</span>
+            <Flame size={18} className="text-orange-500 animate-pulse" />
+          </div>
+          <div className="flex justify-center gap-3 mb-5">
+            {auctionItems.slice(0, 3).map((item) => (
+              <Link
+                key={item.id}
+                to={`/auction/${item.slug}`}
+                className="group relative w-24 h-24 md:w-28 md:h-28 rounded-lg overflow-hidden border-2 border-orange-500/50 hover:border-orange-500 transition-all duration-300 hover:scale-105"
+              >
+                <img
+                  src={item.image}
+                  alt={item.name}
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+                <div className="absolute bottom-1 left-1 right-1 flex items-center justify-center gap-1">
+                  <Clock size={10} className="text-orange-500" />
+                  <span className="font-oswald text-[9px] text-white">{formatPriceSimple(item.currentBid)}</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <p className="font-oswald font-bold uppercase text-white text-lg md:text-xl text-shadow-hero">
+            <span className="text-orange-500">Place Your Bids</span> — <span className="text-white">Own a </span><span className="text-orange-500">Masterpiece</span>
+          </p>
+          <p className="font-inter text-gray-400 text-xs md:text-sm mt-1 max-w-md mx-auto">
+            One-of-a-kind handcrafted blades. Limited time. Highest bidder wins.
+          </p>
+        </div>
+
         <h1 className="font-oswald font-bold uppercase text-shadow-hero text-4xl md:text-5xl lg:text-6xl leading-tight tracking-wide">
           <span className="text-orange-500">{t("hero.title1")}</span>
           <span className="text-white"> {t("hero.titleMiddle")} </span>
@@ -890,15 +938,6 @@ export default function HomePage() {
       <TextMarquee />
       <SectionSeparator />
       <ContactSection />
-
-      {/* Call Us Button */}
-      <a
-        href="tel:+40721557015"
-        className="fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-oswald font-semibold text-sm uppercase tracking-wider px-5 py-3 rounded-full shadow-lg transition-all duration-300 hover:scale-105"
-      >
-        <Phone size={16} />
-        {t("callUs")}
-      </a>
     </div>
   );
 }

@@ -489,7 +489,7 @@ export const getAdditionalProducts = (): Product[] => {
   return products.filter((p) => !p.isSale && !p.featured);
 };
 
-export interface AuctionItem {
+export type AuctionItem = {
   id: string;
   name: string;
   slug: string;

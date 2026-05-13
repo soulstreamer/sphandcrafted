@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "shop": "Magazin",
+    "howItsMade": "Cum se fabrică",
+    "about": "Despre",
+    "contact": "Contact"
+  },
+  "announcement": "LIVRARE GRATUITĂ PENTRU COMENZI DE PESTE 200 LEI",
+  "hero": {
+    "title1": "FORJAT",
+    "titleMiddle": "PENTRU",
+    "title2": "SĂLBĂTICIE",
+    "subtitle": "Fiecare lamă spune o poveste. Fă-o a ta.",
+    "ctaShop": "CUMPĂRĂ ACUM",
+    "ctaCategories": "VEZI CATEGORIILE"
+  },
+  "trust": {
+    "shipping": { "title": "LIVRARE RAPIDĂ", "subtitle": "Livrare în 3-5 zile lucrătoare" },
+    "shopping": { "title": "CUMPĂRĂTURI SIGURE", "subtitle": "Checkout criptat SSL" },
+    "payments": { "title": "PLĂȚI SECURIZATE", "subtitle": "Visa, Mastercard, PayPal, GPay" },
+    "returns": { "title": "RETURNĂRI UȘOARE", "subtitle": "Politică de returnare de 30 de zile" }
+  },
+  "sale": {
+    "heading": "LA REDUCERE ACUM",
+    "subtitle": "Oferte limitate la cele mai frumoase piese ale noastre",
+    "saleBadge": "REDUCERE",
+    "viewProduct": "Vezi produsul"
+  },
+  "categories": {
+    "heading": "NAVIGAȚI PE CATEGORII",
+    "subtitle": "Găsiți lama perfectă pentru următoarea aventură",
+    "explore": "EXPLOREAZĂ"
+  },
+  "moreProducts": {
+    "heading": "MAI MULT DIN FORJĂ",
+    "subtitle": "Descoperiți colecția noastră completă de lame lucrate manual"
+  },
+  "video": {
+    "heading": "FIECARE LAMĂ SPUNE O POVESTE",
+    "p1": "La SPHandcraft, fiecare lamă se naște în foc și este modelată manual. Meșterii noștri forjează fiecare piesă folosind tehnici transmise din generație în generație — de la selectarea celui mai fin oțel Damasc până la modelarea manuală a mânerelor ergonomice cu grijă meticuloasă.",
+    "p2": "Fondat în București, atelierul nostru îmbină fierăria tradițională cu precizia modernă. Fiecare cuțit, secure și unealtă care iese din forja noastră poartă spiritul meșteșugarului care l-a creat — o dovadă a răbdării, priceperii și a unui angajament neclintit față de calitate.",
+    "quote": "\"Nu facem doar unelte. Forjăm moșteniri — piese construite să dureze o viață și vrednice de a fi transmise următoarei generații.\"",
+    "quoteAuthor": "— Maestru Artizan SPHandcraft"
+  },
+  "featured": {
+    "heading": "PIESE REMARCABILE",
+    "subtitle": "Selecție curated a celor mai bine vândute produse",
+    "viewProduct": "Vezi produsul"
+  },
+  "newsletter": {
+    "heading": "RĂMÂI LA CURENT",
+    "subtitle": "Abonează-te pentru oferte exclusive, noutăți și sfaturi de întreținere.",
+    "placeholder": "Adresa ta de email",
+    "button": "ABONEAZĂ-TE",
+    "success": "Îți mulțumim pentru abonare!",
+    "disclaimer": "Fără spam. Te poți dezabona oricând."
+  },
+  "about": {
+    "heading": "FABRICAT CU PASIUNE",
+    "p1": "Fiecare lamă SPHandcraft este forjată de artizani pricepuți folosind tehnici tradiționale transmise din generație în generație. De la selectarea celui mai fin oțel Damasc până la modelarea manuală a mânerelor ergonomice, fiecare pas este realizat cu grijă meticuloasă.",
+    "p2": "Atelierul nostru din București îmbină fierăria tradițională cu precizia modernă. Rezultatul? Lame care nu sunt doar piese de expoziție frumoase, ci unelte de încredere gata pentru orice aventură.",
+    "cta": "CUM ESTE FORJAT"
+  },
+  "marquee": {
+    "line1": "FORJAT DE MÂNĂ",
+    "line2": "CONSTRUIT PENTRU AVENTURĂ",
+    "line3": "STĂPÂNEȘTE SĂLBĂTICIA"
+  },
+  "contact": {
+    "heading": "IA",
+    "headingOrange": "LEGĂTURA",
+    "subtitle": "Am fi încântați să auzim de la tine",
+    "formTitle": "TRIMITE-NE UN MESAJ",
+    "success": "Mulțumim! Mesajul tău a fost trimis.",
+    "name": "Nume",
+    "phone": "Telefon",
+    "email": "Email *",
+    "message": "Mesaj",
+    "placeholderName": "Numele tău",
+    "placeholderPhone": "+40 7XX XXX XXX",
+    "placeholderEmail": "emailul@tau.ro",
+    "placeholderMessage": "Cu ce te putem ajuta?",
+    "submit": "TRIMITE MESAJUL"
+  },
+  "callUs": "Sună-ne",
+  "footer": {
+    "brand": "Cuțite și echipament de exterior fabricate de artizani pentru aventurieri din 2018.",
+    "shop": "Magazin",
+    "shopLinks": {
+      "all": "Toate produsele",
+      "damascus": "Colecția Damasc",
+      "hunting": "Cuțite de vânătoare",
+      "axes": "Topoare & Tomahawk",
+      "pocket": "Cuțite de buzunar"
+    },
+    "company": "Companie",
+    "companyLinks": {
+      "about": "Despre noi",
+      "shipping": "Info livrare",
+      "returns": "Politica de returnare",
+      "privacy": "Politica de confidențialitate",
+      "contact": "Contact"
+    },
+    "contactTitle": "Contact",
+    "rights": "2026 SPHandcraft. Toate drepturile rezervate."
+  },
+  "shop": {
+    "headingAll": "TOATE PRODUSELE",
+    "count": "{{count}} produs",
+    "count_plural": "{{count}} produse",
+    "in": "în {{category}}",
+    "sort": "Sortare:",
+    "sortFeatured": "Recomandate",
+    "sortLow": "Preț: crescător",
+    "sortHigh": "Preț: descrescător",
+    "sortName": "Nume",
+    "filterAll": "Toate",
+    "noProducts": "Nu s-au găsit produse în această categorie.",
+    "viewAll": "VEZI TOATE PRODUSELE",
+    "sale": "REDUCERE",
+    "featured": "RECOMANDAT"
+  },
+  "howItsForged": {
+    "heroHeading": "CUM ESTE FORJAT",
+    "heroSubtitle": "De la oțel brut la capodoperă finită — fiecare lamă SPHandcraft trece prin șase etape meticuloase, fiecare executată manual în atelierul nostru din București.",
+    "steps": [
+      {
+        "title": "01 — Selectarea oțelului",
+        "desc": "Fiecare lamă începe cu cele mai bune materiale. Aprovizionăm oțel Damasc cu conținut ridicat de carbon de la furnizori europeni de încredere, asigurându-ne că fiecare piesă are structura de granulație și conținutul de carbon perfecte pentru o retenție excepțională a tăișului."
+      },
+      {
+        "title": "02 — Forjare și modelare",
+        "desc": "Oțelul este încălzit la peste 1.000°C în forja noastră cu cărbuni până când devine incandescent. Folosind tehnici tradiționale de ciocănire, meșterii noștri modelează lama, trăgând vârful și formând tangul într-o singură piesă continuă de metal."
+      },
+      {
+        "title": "03 — Șlefuire și profilare",
+        "desc": "După răcire, lama este șlefuită grosier pentru a dezvălui profilul de bază. Aici modelul Damasc devine vizibil pentru prima dată. Mâini pricepute ghidează lama pe șlefuitoare răcite cu apă, stabilind teșitura primară și geometria tăișului."
+      },
+      {
+        "title": "04 — Tratament termic",
+        "desc": "Lama trece printr-un ciclu precis de tratament termic — încălzită din nou, apoi răcită rapid în ulei pentru întărirea oțelului. Urmează revenirea, care eliberează tensiunile interne și atinge echilibrul perfect între duritate și flexibilitate."
+      },
+      {
+        "title": "05 — Realizarea mânerului",
+        "desc": "În timp ce lama se odihnește, maeștrii noștri de mânere selectează și modelează materiale premium — burad de nuc, lemn stabilizat, os lustruit sau micartă. Fiecare mâner este ajustat pe tang, apoi fixat cu știfturi și epoxi pentru o legătură pe viață."
+      },
+      {
+        "title": "06 — Asamblare finală și ascuțire",
+        "desc": "Ultima etapă aduce totul laolaltă. Lama este ascuțită manual la o muchie de brici pe pietre japoneze de apă, mânerul este finisat cu mai multe straturi de ulei, iar fiecare piesă este inspectată, ștampilată și pregătită pentru noul său proprietar."
+      }
+    ],
+    "ctaHeading": "VENTIȚI ARTIZANATUL",
+    "ctaSubtitle": "Vizitați atelierul nostru sau răsfoiți colecția noastră pentru a vedea rezultatele acestui meșteșug străvechi. Fiecare lamă poartă sufletul artizanului care a forjat-o.",
+    "ctaButton": "EXPLOREAZĂ COLECȚIA"
+  },
+  "countdown": {
+    "ends": "REDUCEREA SE TERMINĂ ÎN",
+    "hours": "Ore",
+    "mins": "Min",
+    "secs": "Sec",
+    "h": "h",
+    "m": "m",
+    "s": "s"
+  },
+  "guarantee": {
+    "title": "GARANȚIE PE VIAȚĂ",
+    "subtitle": "Fiecare lamă e construită să dureze o viață",
+    "desc": "Stăm în spatele fiecărei piese care iese din forja noastră. Fiecare lamă SPHandcraft vine cu garanție completă pe viață împotriva defectelor de fabricație — pentru că moștenirile nu ar trebui să aibă termen de expirare.",
+    "learnMore": "AFLĂ MAI MULTE"
+  },
+  "product": {
+    "notFound": "Produs negăsit",
+    "notFoundDesc": "Produsul pe care îl cauți nu există.",
+    "backToShop": "ÎNAPOI LA MAGAZIN",
+    "back": "Înapoi",
+    "specifications": "Specificații",
+    "lifetimeWarranty": "Garanție pe viață",
+    "returns": "Returnări în 30 de zile",
+    "delivery": "{{days}} zile lucrătoare",
+    "addToCart": "ADĂUGĂ ÎN COȘ",
+    "addedToCart": "ADĂUGAT ÎN COȘ",
+    "youMayAlsoLike": "S-AR PUTEA SĂ-ȚI PLACĂ",
+    "reviews": "({{count}} recenzii)",
+    "freeShippingMore": "Adaugă {{amount}} LEI pentru livrare gratuită"
+  },
+  "cart": {
+    "yourCart": "Coșul Tău",
+    "closeCart": "Închide coșul",
+    "empty": "Coșul tău este gol",
+    "continueShopping": "Continuă cumpărăturile",
+    "subtotal": "Subtotal",
+    "delivery": "Livrare",
+    "free": "GRATUIT",
+    "total": "Total",
+    "viewCart": "Vezi coșul",
+    "clearCart": "Golește coșul",
+    "items": "{{count}} produse",
+    "emptyTitle": "COȘUL TĂU ESTE GOL",
+    "emptyDesc": "Se pare că nu ai adăugat încă niciun produs.",
+    "startShopping": "ÎNCEPE CUMPĂRĂTURILE",
+    "shoppingCart": "COȘ DE CUMPĂRĂTURI",
+    "orderSummary": "REZUMAT COMANDA",
+    "proceedToCheckout": "FINALIZEAZĂ COMANDA",
+    "continueShoppingLink": "CONTINUĂ CUMPĂRĂTURILE",
+    "freeShippingOver": "Livrare gratuită la comenzi peste 200 LEI"
+  },
+  "carousel": {
+    "viewProduct": "Vezi produsul"
+  },
+  "policy": {
+    "back": "Înapoi",
+    "privacy": "POLITICA DE CONFIDENȚIALITATE",
+    "delivery": "LIVRARE ȘI RETURNĂRI",
+    "refund": "POLITICA DE RAMBURSARE",
+    "lastUpdated": "Ultima actualizare: ianuarie 2026.",
+    "contactUs": "contactați-ne"
+  }
+}

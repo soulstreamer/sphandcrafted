@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "howItsMade": "How It's Made",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "announcement": "FREE SHIPPING ON ORDERS OVER 200 EUR",
+  "hero": {
+    "title1": "FORGED",
+    "titleMiddle": "FOR THE",
+    "title2": "WILD",
+    "subtitle": "Every blade is a story. Make it yours.",
+    "ctaShop": "SHOP NOW",
+    "ctaCategories": "VIEW CATEGORIES"
+  },
+  "trust": {
+    "shipping": { "title": "FAST SHIPPING", "subtitle": "Delivery within 3-5 business days" },
+    "shopping": { "title": "SAFE SHOPPING", "subtitle": "SSL encrypted checkout" },
+    "payments": { "title": "SECURE PAYMENTS", "subtitle": "Visa, Mastercard, PayPal, GPay & more" },
+    "returns": { "title": "EASY RETURNS", "subtitle": "30-day return policy" }
+  },
+  "sale": {
+    "heading": "ON SALE NOW",
+    "subtitle": "Limited-time offers on our finest pieces",
+    "saleBadge": "SALE",
+    "viewProduct": "View Product"
+  },
+  "categories": {
+    "heading": "BROWSE BY CATEGORY",
+    "subtitle": "Find the perfect blade for your next adventure",
+    "explore": "EXPLORE"
+  },
+  "moreProducts": {
+    "heading": "MORE FROM THE FORGE",
+    "subtitle": "Discover our complete collection of handcrafted blades"
+  },
+  "video": {
+    "heading": "EVERY BLADE TELLS A STORY",
+    "p1": "At SPHandcraft, every blade is born in fire and shaped by hand. Our master artisans forge each piece using techniques passed down through generations — from selecting the finest Damascus steel to hand-shaping ergonomic handles with meticulous care.",
+    "p2": "Founded in Bucharest, our workshop blends time-honored blacksmithing with modern precision. Every knife, axe, and tool that leaves our forge carries the spirit of the craftsman who made it — a testament to patience, skill, and an unwavering commitment to quality.",
+    "quote": "\"We do not just make tools. We forge heirlooms — pieces built to last a lifetime and worthy of being passed to the next generation.\"",
+    "quoteAuthor": "— SPHandcraft Master Artisan"
+  },
+  "featured": {
+    "heading": "FEATURED PIECES",
+    "subtitle": "Curated selection of our best sellers",
+    "viewProduct": "View Product"
+  },
+  "newsletter": {
+    "heading": "STAY SHARP",
+    "subtitle": "Subscribe for exclusive offers, new arrivals, and knife care tips.",
+    "placeholder": "Your email address",
+    "button": "SUBSCRIBE",
+    "success": "Thank you for subscribing!",
+    "disclaimer": "No spam, ever. Unsubscribe anytime."
+  },
+  "about": {
+    "heading": "HANDCRAFTED WITH PASSION",
+    "p1": "Each SPHandcraft blade is forged by skilled artisans using traditional techniques passed down through generations. From selecting the finest Damascus steel to hand-shaping ergonomic handles, every step is done with meticulous care.",
+    "p2": "Our workshop in Bucharest combines time-honored blacksmithing with modern precision. The result? Blades that are not only beautiful display pieces but reliable tools ready for any adventure.",
+    "cta": "HOW IT'S FORGED"
+  },
+  "marquee": {
+    "line1": "FORGED BY HAND",
+    "line2": "BUILT FOR ADVENTURE",
+    "line3": "OWN THE WILD"
+  },
+  "contact": {
+    "heading": "GET IN",
+    "headingOrange": "TOUCH",
+    "subtitle": "We would love to hear from you",
+    "formTitle": "SEND US A MESSAGE",
+    "success": "Thank you! Your message has been sent.",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email *",
+    "message": "Message",
+    "placeholderName": "Your name",
+    "placeholderPhone": "+40 7XX XXX XXX",
+    "placeholderEmail": "your@email.com",
+    "placeholderMessage": "How can we help you?",
+    "submit": "SEND MESSAGE"
+  },
+  "callUs": "Call Us",
+  "footer": {
+    "brand": "Master-crafted knives and outdoor gear, forged by artisans for adventurers since 2018.",
+    "shop": "Shop",
+    "shopLinks": {
+      "all": "All Products",
+      "damascus": "Damascus Collection",
+      "hunting": "Hunting Knives",
+      "axes": "Axes & Tomahawks",
+      "pocket": "Pocket Knives"
+    },
+    "company": "Company",
+    "companyLinks": {
+      "about": "About Us",
+      "shipping": "Shipping Info",
+      "returns": "Returns Policy",
+      "privacy": "Privacy Policy",
+      "contact": "Contact"
+    },
+    "contactTitle": "Contact",
+    "rights": "2026 SPHandcraft. All rights reserved."
+  },
+  "shop": {
+    "headingAll": "ALL PRODUCTS",
+    "count": "{{count}} product",
+    "count_plural": "{{count}} products",
+    "in": "in {{category}}",
+    "sort": "Sort by:",
+    "sortFeatured": "Featured",
+    "sortLow": "Price: Low to High",
+    "sortHigh": "Price: High to Low",
+    "sortName": "Name",
+    "filterAll": "All",
+    "noProducts": "No products found in this category.",
+    "viewAll": "VIEW ALL PRODUCTS",
+    "sale": "SALE",
+    "featured": "FEATURED"
+  },
+  "howItsForged": {
+    "heroHeading": "HOW IT'S FORGED",
+    "heroSubtitle": "From raw steel to finished masterpiece — every SPHandcraft blade passes through six meticulous stages, each performed by hand in our Bucharest workshop.",
+    "steps": [
+      {
+        "title": "01 — Selecting the Steel",
+        "desc": "Every blade begins with the finest materials. We source high-carbon Damascus steel billets from trusted European suppliers, ensuring each piece has the perfect grain structure and carbon content for exceptional edge retention."
+      },
+      {
+        "title": "02 — Forging & Shaping",
+        "desc": "The steel is heated to over 1,000°C in our coal forge until it glows orange-hot. Using traditional hammer techniques, our master artisans shape the blade, drawing out the tip and forming the tang in a single continuous piece of metal."
+      },
+      {
+        "title": "03 — Grinding & Profiling",
+        "desc": "Once cooled, the blade is rough-ground to reveal the basic profile. This is where the Damascus pattern first becomes visible. Skilled hands guide the blade across water-cooled grinders, establishing the primary bevel and edge geometry."
+      },
+      {
+        "title": "04 — Heat Treatment",
+        "desc": "The blade undergoes a precise heat-treatment cycle — heated again, then quenched in oil to harden the steel. A tempering process follows, relieving internal stresses and striking the perfect balance between hardness and flexibility."
+      },
+      {
+        "title": "05 — Handle Crafting",
+        "desc": "While the blade rests, our handle craftsmen select and shape premium materials — walnut burl, stabilized wood, polished bone, or micarta. Each handle is hand-fitted to its tang, then pinned and epoxied for a lifelong bond."
+      },
+      {
+        "title": "06 — Final Assembly & Sharpening",
+        "desc": "The final stage brings everything together. The blade is hand-sharpened to a razor edge on Japanese water stones, the handle is finished with multiple coats of oil, and each piece is inspected, stamped, and prepared for its new owner."
+      }
+    ],
+    "ctaHeading": "WITNESS THE CRAFT",
+    "ctaSubtitle": "Visit our workshop or browse our collection to see the results of this ancient craft. Every blade carries the soul of the artisan who forged it.",
+    "ctaButton": "EXPLORE THE COLLECTION"
+  },
+  "countdown": {
+    "ends": "SALE ENDS IN",
+    "hours": "Hours",
+    "mins": "Mins",
+    "secs": "Secs",
+    "h": "h",
+    "m": "m",
+    "s": "s"
+  },
+  "guarantee": {
+    "title": "LIFETIME WARRANTY",
+    "subtitle": "Every blade is built to last a lifetime",
+    "desc": "We stand behind every piece that leaves our forge. Each SPHandcraft blade comes with a full lifetime warranty against manufacturing defects — because heirlooms shouldn't have an expiration date.",
+    "learnMore": "LEARN MORE"
+  },
+  "product": {
+    "notFound": "Product Not Found",
+    "notFoundDesc": "The product you are looking for does not exist.",
+    "backToShop": "BACK TO SHOP",
+    "back": "Back",
+    "specifications": "Specifications",
+    "lifetimeWarranty": "Lifetime warranty",
+    "returns": "30-day returns",
+    "delivery": "{{days}} business days",
+    "addToCart": "ADD TO CART",
+    "addedToCart": "ADDED TO CART",
+    "youMayAlsoLike": "YOU MAY ALSO LIKE",
+    "reviews": "({{count}} reviews)",
+    "freeShippingMore": "Add EUR {{amount}} more for free shipping"
+  },
+  "cart": {
+    "yourCart": "Your Cart",
+    "closeCart": "Close cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "delivery": "Delivery",
+    "free": "FREE",
+    "total": "Total",
+    "viewCart": "View Cart",
+    "clearCart": "Clear Cart",
+    "items": "{{count}} items",
+    "emptyTitle": "YOUR CART IS EMPTY",
+    "emptyDesc": "Looks like you have not added any products yet.",
+    "startShopping": "START SHOPPING",
+    "shoppingCart": "SHOPPING CART",
+    "orderSummary": "ORDER SUMMARY",
+    "proceedToCheckout": "PROCEED TO CHECKOUT",
+    "continueShoppingLink": "CONTINUE SHOPPING",
+    "freeShippingOver": "Free shipping on orders over EUR 200"
+  },
+  "carousel": {
+    "viewProduct": "View Product"
+  },
+  "policy": {
+    "back": "Back",
+    "privacy": "PRIVACY POLICY",
+    "delivery": "DELIVERY & RETURNS",
+    "refund": "REFUND & RETURNS POLICY",
+    "lastUpdated": "Last updated: January 2026.",
+    "contactUs": "contact us"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "home": "Start",
+    "shop": "Shop",
+    "howItsMade": "Herstellung",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "announcement": "KOSTENLOSER VERSAND AB 200 EUR BESTELLWERT",
+  "hero": {
+    "title1": "GESCHMIEDET",
+    "titleMiddle": "FÜR DIE",
+    "title2": "WILDNIS",
+    "subtitle": "Jede Klinge erzählt eine Geschichte. Machen Sie sie zu Ihrer.",
+    "ctaShop": "JETZT KAUFEN",
+    "ctaCategories": "KATEGORIEN ANSEHEN"
+  },
+  "trust": {
+    "shipping": { "title": "SCHNELLER VERSAND", "subtitle": "Lieferung innerhalb von 3-5 Werktagen" },
+    "shopping": { "title": "SICHERES EINKAUFEN", "subtitle": "SSL-verschlüsselter Checkout" },
+    "payments": { "title": "SICHERE ZAHLUNG", "subtitle": "Visa, Mastercard, PayPal, GPay" },
+    "returns": { "title": "EINFACHE RÜCKGABE", "subtitle": "30-tägiges Rückgaberecht" }
+  },
+  "sale": {
+    "heading": "JETZT IM ANGEBOT",
+    "subtitle": "Befristete Angebote auf unsere besten Stücke",
+    "saleBadge": "ANGEBOT",
+    "viewProduct": "Produkt ansehen"
+  },
+  "categories": {
+    "heading": "NACH KATEGORIE STÖBERN",
+    "subtitle": "Finden Sie die perfekte Klinge für Ihr nächstes Abenteuer",
+    "explore": "ENTDECKEN"
+  },
+  "moreProducts": {
+    "heading": "MEHR AUS DER SCHMIEDE",
+    "subtitle": "Entdecken Sie unsere gesamte Kollektion handgefertigter Klingen"
+  },
+  "video": {
+    "heading": "JEDE KLINGE ERZÄHLT EINE GESCHICHTE",
+    "p1": "Bei SPHandcraft wird jede Klinge im Feuer geboren und von Hand geformt. Unsere Meisterhandwerker schmieden jedes Stück mit Techniken, die über Generationen weitergegeben wurden — von der Auswahl des feinsten Damaststahls bis zur handgefertigten Formgebung ergonomischer Griffe.",
+    "p2": "Unser in Bukarest gegründeter Workshop verbindet traditionelle Schmiedekunst mit moderner Präzision. Jedes Messer, jede Axt und jedes Werkzeug, das unsere Schmiede verlässt, trägt den Geist des Handwerkers, der es geschaffen hat — ein Zeugnis von Geduld, Können und unerschütterlicher Qualität.",
+    "quote": "\"Wir stellen nicht nur Werkzeuge her. Wir schmieden Erbstücke — Stücke, die ein Leben lang halten und es wert sind, an die nächste Generation weitergegeben zu werden.\"",
+    "quoteAuthor": "— SPHandcraft Meisterhandwerker"
+  },
+  "featured": {
+    "heading": "AUSGEWÄHLTE STÜCKE",
+    "subtitle": "Kuratierte Auswahl unserer Bestseller",
+    "viewProduct": "Produkt ansehen"
+  },
+  "newsletter": {
+    "heading": "BLEIBEN SIE SCHARF",
+    "subtitle": "Abonnieren Sie exklusive Angebote, Neuankömmlinge und Pflegetipps.",
+    "placeholder": "Ihre E-Mail-Adresse",
+    "button": "ABONNIEREN",
+    "success": "Vielen Dank für Ihr Abonnement!",
+    "disclaimer": "Kein Spam. Jederzeit kündbar."
+  },
+  "about": {
+    "heading": "MIT LEIDENSCHAFT HANDGEFERTIGT",
+    "p1": "Jede SPHandcraft-Klinge wird von erfahrenen Handwerkern mit traditionellen Techniken geschmiedet, die über Generationen weitergegeben wurden. Von der Auswahl des feinsten Damaststahls bis zur handgefertigten Formgebung ergonomischer Griffe wird jeder Schritt mit größter Sorgfalt ausgeführt.",
+    "p2": "Unser Workshop in Bukarest verbindet traditionelle Schmiedekunst mit moderner Präzision. Das Ergebnis? Klingen, die nicht nur schöne Ausstellungsstücke sind, sondern zuverlässige Werkzeuge für jedes Abenteuer.",
+    "cta": "WIE ES GESCHMIEDET WIRD"
+  },
+  "marquee": {
+    "line1": "VON HAND GESCHMIEDET",
+    "line2": "FÜR ABENTEUER GEBAUT",
+    "line3": "BEHERRSCHEN SIE DIE WILDNIS"
+  },
+  "contact": {
+    "heading": "NEHMEN SIE",
+    "headingOrange": "KONTAKT",
+    "subtitle": "Wir würden uns freuen, von Ihnen zu hören",
+    "formTitle": "NACHRICHT SENDEN",
+    "success": "Vielen Dank! Ihre Nachricht wurde gesendet.",
+    "name": "Name",
+    "phone": "Telefon",
+    "email": "E-Mail *",
+    "message": "Nachricht",
+    "placeholderName": "Ihr Name",
+    "placeholderPhone": "+40 7XX XXX XXX",
+    "placeholderEmail": "ihre@email.com",
+    "placeholderMessage": "Wie können wir Ihnen helfen?",
+    "submit": "NACHRICHT SENDEN"
+  },
+  "callUs": "Rufen Sie uns an",
+  "footer": {
+    "brand": "Meisterhaft gefertigte Messer und Outdoor-Ausrüstung, von Handwerkern für Abenteurer seit 2018 geschmiedet.",
+    "shop": "Shop",
+    "shopLinks": {
+      "all": "Alle Produkte",
+      "damascus": "Damast-Kollektion",
+      "hunting": "Jagdmesser",
+      "axes": "Äxte & Tomahawks",
+      "pocket": "Taschenmesser"
+    },
+    "company": "Unternehmen",
+    "companyLinks": {
+      "about": "Über uns",
+      "shipping": "Versandinfo",
+      "returns": "Rückgaberecht",
+      "privacy": "Datenschutz",
+      "contact": "Kontakt"
+    },
+    "contactTitle": "Kontakt",
+    "rights": "2026 SPHandcraft. Alle Rechte vorbehalten."
+  },
+  "shop": {
+    "headingAll": "ALLE PRODUKTE",
+    "count": "{{count}} produkt",
+    "count_plural": "{{count}} produkte",
+    "in": "in {{category}}",
+    "sort": "Sortieren nach:",
+    "sortFeatured": "Empfohlen",
+    "sortLow": "Preis: aufsteigend",
+    "sortHigh": "Preis: absteigend",
+    "sortName": "Name",
+    "filterAll": "Alle",
+    "noProducts": "Keine Produkte in dieser Kategorie gefunden.",
+    "viewAll": "ALLE PRODUKTE ANZEIGEN",
+    "sale": "ANGEBOT",
+    "featured": "EMPFEHLUNG"
+  },
+  "howItsForged": {
+    "heroHeading": "WIE ES GESCHMIEDET WIRD",
+    "heroSubtitle": "Vom rohen Stahl zum fertigen Meisterwerk — jede SPHandcraft-Klinge durchläuft sechs sorgfältige Schritte, die alle von Hand in unserer Bukarester Werkstatt ausgeführt werden.",
+    "steps": [
+      {
+        "title": "01 — Auswahl des Stahls",
+        "desc": "Jede Klinge beginnt mit den besten Materialien. Wir beziehen hochwertigen Damaststahl von vertrauenswürdigen europäischen Lieferanten und stellen sicher, dass jedes Stück die perfekte Kornstruktur und den richtigen Kohlenstoffgehalt für außergewöhnliche Schärfe hat."
+      },
+      {
+        "title": "02 — Schmieden und Formen",
+        "desc": "Der Stahl wird in unserer Kohleschmiede auf über 1.000 °C erhitzt, bis er orange glüht. Mit traditionellen Hammertechniken formen unsere Meisterhandwerker die Klinge, ziehen die Spitze aus und formen den Erl in einem einzigen durchgehenden Stück Metall."
+      },
+      {
+        "title": "03 — Schleifen und Profilieren",
+        "desc": "Nach dem Abkühlen wird die Klinge grob geschliffen, um das Grundprofil freizulegen. Hier wird das Damastmuster erstmals sichtbar. Geübte Hände führen die Klinge über wassergekühlte Schleifmaschinen und legen die primäre Fase und Schneidengeometrie fest."
+      },
+      {
+        "title": "04 — Wärmebehandlung",
+        "desc": "Die Klinge durchläuft einen präzisen Wärmebehandlungszyklus — erneutes Erhitzen, dann Abschrecken in Öl zur Härtung des Stahls. Ein Anlassprozess folgt, der innere Spannungen abbaut und die perfekte Balance zwischen Härte und Flexibilität herstellt."
+      },
+      {
+        "title": "05 — Griffherstellung",
+        "desc": "Während die Klinge ruht, wählen und formen unsere Griffhandwerker erstklassige Materialien — Walnussmaser, stabilisiertes Holz, poliertes Knochen oder Micarta. Jeder Griff wird an den Erl angepasst, dann gestiftet und verklebt für eine lebenslange Verbindung."
+      },
+      {
+        "title": "06 — Endmontage und Schärfen",
+        "desc": "Die letzte Phase bringt alles zusammen. Die Klinge wird auf japanischen Wassersteinen von Hand zu einer rasiermesserscharfen Kante geschärft, der Griff mit mehreren Ölschichten versehen, und jedes Stück wird inspiziert, gestempelt und für seinen neuen Besitzer vorbereitet."
+      }
+    ],
+    "ctaHeading": "DAS HANDWERK ERLEBEN",
+    "ctaSubtitle": "Besuchen Sie unsere Werkstatt oder stöbern Sie in unserer Kollektion, um die Ergebnisse dieser alten Handwerkskunst zu sehen. Jede Klinge trägt die Seele des Handwerkers, der sie geschmiedet hat.",
+    "ctaButton": "KOLLEKTION ENTDECKEN"
+  },
+  "countdown": {
+    "ends": "ANGEBOT ENDET IN",
+    "hours": "Stunden",
+    "mins": "Minuten",
+    "secs": "Sekunden",
+    "h": "h",
+    "m": "m",
+    "s": "s"
+  },
+  "guarantee": {
+    "title": "LEBENSLANGE GARANTIE",
+    "subtitle": "Jede Klinge ist für ein Leben gebaut",
+    "desc": "Wir stehen hinter jedem Stück, das unsere Schmiede verlässt. Jede SPHandcraft-Klinge wird mit einer lebenslangen Garantie gegen Material- und Verarbeitungsfehler geliefert – denn Erbstücke sollten kein Verfallsdatum haben.",
+    "learnMore": "MEHR ERFAHREN"
+  },
+  "product": {
+    "notFound": "Produkt nicht gefunden",
+    "notFoundDesc": "Das gesuchte Produkt existiert nicht.",
+    "backToShop": "ZURÜCK ZUM SHOP",
+    "back": "Zurück",
+    "specifications": "Spezifikationen",
+    "lifetimeWarranty": "Lebenslange Garantie",
+    "returns": "30 Tage Rückgaberecht",
+    "delivery": "{{days}} Werktage",
+    "addToCart": "IN DEN WARENKORB",
+    "addedToCart": "HINZUGEFÜGT",
+    "youMayAlsoLike": "DAS KÖNNTE IHNEN AUCH GEFALLEN",
+    "reviews": "({{count}} Bewertungen)",
+    "freeShippingMore": "Fügen Sie EUR {{amount}} mehr für kostenlosen Versand hinzu"
+  },
+  "cart": {
+    "yourCart": "Ihr Warenkorb",
+    "closeCart": "Warenkorb schließen",
+    "empty": "Ihr Warenkorb ist leer",
+    "continueShopping": "Weiter einkaufen",
+    "subtotal": "Zwischensumme",
+    "delivery": "Versand",
+    "free": "KOSTENLOS",
+    "total": "Gesamtsumme",
+    "viewCart": "Warenkorb ansehen",
+    "clearCart": "Warenkorb leeren",
+    "items": "{{count}} artikel",
+    "emptyTitle": "IHR WARENKORB IST LEER",
+    "emptyDesc": "Sie haben noch keine Produkte hinzugefügt.",
+    "startShopping": "EINKAUFEN BEGINNEN",
+    "shoppingCart": "WARENKORB",
+    "orderSummary": "BESTELLÜBERSICHT",
+    "proceedToCheckout": "ZUR KASSE",
+    "continueShoppingLink": "WEITER EINKAUFEN",
+    "freeShippingOver": "Kostenloser Versand ab 200 EUR Bestellwert"
+  },
+  "carousel": {
+    "viewProduct": "Produkt ansehen"
+  },
+  "policy": {
+    "back": "Zurück",
+    "privacy": "DATENSCHUTZERKLÄRUNG",
+    "delivery": "VERSAND UND RÜCKGABE",
+    "refund": "RÜCKERSTATTUNGSRICHTLINIE",
+    "lastUpdated": "Zuletzt aktualisiert: Januar 2026.",
+    "contactUs": "kontaktieren Sie uns"
+  }
+}

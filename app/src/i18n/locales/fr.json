@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "shop": "Boutique",
+    "howItsMade": "Fabrication",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "announcement": "LIVRAISON GRATUITE POUR LES COMMANDES DE PLUS DE 200 EUR",
+  "hero": {
+    "title1": "FORGÉ",
+    "titleMiddle": "POUR LE",
+    "title2": "SAUVAGE",
+    "subtitle": "Chaque lame raconte une histoire. Faites-la vôtre.",
+    "ctaShop": "ACHETER",
+    "ctaCategories": "VOIR LES CATÉGORIES"
+  },
+  "trust": {
+    "shipping": { "title": "LIVRAISON RAPIDE", "subtitle": "Livrée sous 3 à 5 jours ouvrés" },
+    "shopping": { "title": "ACHATS SÉCURISÉS", "subtitle": "Paiement crypté SSL" },
+    "payments": { "title": "PAIEMENTS SÉCURISÉS", "subtitle": "Visa, Mastercard, PayPal, GPay" },
+    "returns": { "title": "RETOURS FACILES", "subtitle": "Politique de retour de 30 jours" }
+  },
+  "sale": {
+    "heading": "EN PROMOTION",
+    "subtitle": "Offres limitées sur nos plus belles pièces",
+    "saleBadge": "PROMO",
+    "viewProduct": "Voir le produit"
+  },
+  "categories": {
+    "heading": "PARCOURIR PAR CATÉGORIE",
+    "subtitle": "Trouvez la lame parfaite pour votre prochaine aventure",
+    "explore": "EXPLORER"
+  },
+  "moreProducts": {
+    "heading": "PLUS DE LA FORGE",
+    "subtitle": "Découvrez notre collection complète de lames artisanales"
+  },
+  "video": {
+    "heading": "CHAQUE LAME RACONTE UNE HISTOIRE",
+    "p1": "Chez SPHandcraft, chaque lame naît dans le feu et est façonnée à la main. Nos maîtres artisans forgent chaque pièce en utilisant des techniques transmises de génération en génération — de la sélection du meilleur acier Damas au façonnage minutieux des manches ergonomiques.",
+    "p2": "Fondé à Bucarest, notre atelier allie la forge traditionnelle à la précision moderne. Chaque couteau, hache et outil qui quitte notre forge porte l'esprit de l'artisan qui l'a créé — un témoignage de patience, de savoir-faire et d'un engagement inébranlable envers la qualité.",
+    "quote": "\"Nous ne fabriquons pas seulement des outils. Nous forgeons des héritages — des pièces conçues pour durer toute une vie et dignes d'être transmises à la prochaine génération.\"",
+    "quoteAuthor": "— Maître Artisan SPHandcraft"
+  },
+  "featured": {
+    "heading": "PIÈCES PHARES",
+    "subtitle": "Sélection curated de nos meilleures ventes",
+    "viewProduct": "Voir le produit"
+  },
+  "newsletter": {
+    "heading": "RESTEZ INFORMÉ",
+    "subtitle": "Abonnez-vous pour des offres exclusives, les nouveautés et des conseils d'entretien.",
+    "placeholder": "Votre adresse email",
+    "button": "S'ABONNER",
+    "success": "Merci de vous être abonné !",
+    "disclaimer": "Pas de spam. Désabonnez-vous à tout moment."
+  },
+  "about": {
+    "heading": "FABRIQUÉ AVEC PASSION",
+    "p1": "Chaque lame SPHandcraft est forgée par des artisans qualifiés utilisant des techniques traditionnelles transmises de génération en génération. De la sélection du meilleur acier Damas au façonnage des manches ergonomiques, chaque étape est réalisée avec un soin méticuleux.",
+    "p2": "Notre atelier à Bucarest allie la forge traditionnelle à la précision moderne. Le résultat ? Des lames qui ne sont pas seulement de belles pièces d'exposition mais des outils fiables prêts pour toute aventure.",
+    "cta": "COMMENT C'EST FORGÉ"
+  },
+  "marquee": {
+    "line1": "FORGÉ À LA MAIN",
+    "line2": "CONÇU POUR L'AVENTURE",
+    "line3": "APPROPRIEZ-VOUS LE SAUVAGE"
+  },
+  "contact": {
+    "heading": "PRENEZ",
+    "headingOrange": "CONTACT",
+    "subtitle": "Nous serions ravis de vous entendre",
+    "formTitle": "ENVOYEZ-NOUS UN MESSAGE",
+    "success": "Merci ! Votre message a été envoyé.",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "Email *",
+    "message": "Message",
+    "placeholderName": "Votre nom",
+    "placeholderPhone": "+40 7XX XXX XXX",
+    "placeholderEmail": "votre@email.com",
+    "placeholderMessage": "Comment pouvons-nous vous aider ?",
+    "submit": "ENVOYER LE MESSAGE"
+  },
+  "callUs": "Appelez-nous",
+  "footer": {
+    "brand": "Couteaux et équipement d'extérieur fabriqués par des artisans pour les aventuriers depuis 2018.",
+    "shop": "Boutique",
+    "shopLinks": {
+      "all": "Tous les produits",
+      "damascus": "Collection Damas",
+      "hunting": "Couteaux de chasse",
+      "axes": "Haches & Tomahawks",
+      "pocket": "Couteaux de poche"
+    },
+    "company": "Société",
+    "companyLinks": {
+      "about": "À propos",
+      "shipping": "Livraison",
+      "returns": "Politique de retour",
+      "privacy": "Politique de confidentialité",
+      "contact": "Contact"
+    },
+    "contactTitle": "Contact",
+    "rights": "2026 SPHandcraft. Tous droits réservés."
+  },
+  "shop": {
+    "headingAll": "TOUS LES PRODUITS",
+    "count": "{{count}} produit",
+    "count_plural": "{{count}} produits",
+    "in": "dans {{category}}",
+    "sort": "Trier par :",
+    "sortFeatured": "En vedette",
+    "sortLow": "Prix : croissant",
+    "sortHigh": "Prix : décroissant",
+    "sortName": "Nom",
+    "filterAll": "Tous",
+    "noProducts": "Aucun produit trouvé dans cette catégorie.",
+    "viewAll": "VOIR TOUS LES PRODUITS",
+    "sale": "PROMO",
+    "featured": "EN VEDETTE"
+  },
+  "howItsForged": {
+    "heroHeading": "COMMENT C'EST FORGÉ",
+    "heroSubtitle": "De l'acier brut au chef-d'œuvre fini — chaque lame SPHandcraft passe par six étapes méticuleuses, chacune exécutée à la main dans notre atelier de Bucarest.",
+    "steps": [
+      {
+        "title": "01 — Sélection de l'acier",
+        "desc": "Chaque lame commence par les meilleurs matériaux. Nous nous approvisionnons en acier Damas à haute teneur en carbone auprès de fournisseurs européens de confiance, garantissant une structure de grain et une teneur en carbone parfaites pour une rétention de tranchant exceptionnelle."
+      },
+      {
+        "title": "02 — Forge et façonnage",
+        "desc": "L'acier est chauffé à plus de 1 000 °C dans notre forge au charbon jusqu'à ce qu'il devienne orange incandescent. Grâce aux techniques traditionnelles du marteau, nos maîtres artisans façonnent la lame, étirent la pointe et forment la soie en une seule pièce de métal continue."
+      },
+      {
+        "title": "03 — Meulage et profilage",
+        "desc": "Une fois refroidi, la lame est ébauchée pour révéler le profil de base. C'est là que le motif Damas devient visible pour la première fois. Des mains expertes guident la lame sur des meules refroidies à l'eau, établissant le biseau principal et la géométrie du tranchant."
+      },
+      {
+        "title": "04 — Traitement thermique",
+        "desc": "La lame subit un cycle de traitement thermique précis — chauffée à nouveau, puis trempée dans l'huile pour durcir l'acier. Un processus de revenu suit, soulageant les contraintes internes et trouvant l'équilibre parfait entre dureté et flexibilité."
+      },
+      {
+        "title": "05 — Fabrication du manche",
+        "desc": "Pendant que la lame repose, nos artisans mancheliers sélectionnent et façonnent des matériaux de qualité — ronce de noyer, bois stabilisé, os poli ou micarta. Chaque manche est ajusté à la soie, puis chevillé et collé à l'époxy pour une liaison à vie."
+      },
+      {
+        "title": "06 — Assemblage final et affûtage",
+        "desc": "La dernière étape rassemble tout. La lame est affûtée à la main au rasoir sur des pierres à eau japonaises, le manche reçoit plusieurs couches d'huile, et chaque pièce est inspectée, estampillée et préparée pour son nouveau propriétaire."
+      }
+    ],
+    "ctaHeading": "DÉCOUVREZ L'ARTISANAT",
+    "ctaSubtitle": "Visitez notre atelier ou parcourez notre collection pour voir les résultats de cet artisanat ancestral. Chaque lame porte l'âme de l'artisan qui l'a forgée.",
+    "ctaButton": "EXPLORER LA COLLECTION"
+  },
+  "countdown": {
+    "ends": "FIN DE LA PROMO DANS",
+    "hours": "Heures",
+    "mins": "Minutes",
+    "secs": "Secondes",
+    "h": "h",
+    "m": "m",
+    "s": "s"
+  },
+  "guarantee": {
+    "title": "GARANTIE À VIE",
+    "subtitle": "Chaque lame est conçue pour durer toute une vie",
+    "desc": "Nous soutenons chaque pièce qui sort de notre forge. Chaque lame SPHandcraft est accompagnée d'une garantie à vie complète contre les défauts de fabrication — car les héritages ne devraient pas avoir de date d'expiration.",
+    "learnMore": "EN SAVOIR PLUS"
+  },
+  "product": {
+    "notFound": "Produit introuvable",
+    "notFoundDesc": "Le produit que vous recherchez n'existe pas.",
+    "backToShop": "RETOUR À LA BOUTIQUE",
+    "back": "Retour",
+    "specifications": "Spécifications",
+    "lifetimeWarranty": "Garantie à vie",
+    "returns": "Retours sous 30 jours",
+    "delivery": "{{days}} jours ouvrés",
+    "addToCart": "AJOUTER AU PANIER",
+    "addedToCart": "AJOUTÉ AU PANIER",
+    "youMayAlsoLike": "VOUS POURRIEZ AUSSI AIMER",
+    "reviews": "({{count}} avis)",
+    "freeShippingMore": "Ajoutez EUR {{amount}} de plus pour la livraison gratuite"
+  },
+  "cart": {
+    "yourCart": "Votre Panier",
+    "closeCart": "Fermer le panier",
+    "empty": "Votre panier est vide",
+    "continueShopping": "Continuer les achats",
+    "subtotal": "Sous-total",
+    "delivery": "Livraison",
+    "free": "GRATUIT",
+    "total": "Total",
+    "viewCart": "Voir le panier",
+    "clearCart": "Vider le panier",
+    "items": "{{count}} articles",
+    "emptyTitle": "VOTRE PANIER EST VIDE",
+    "emptyDesc": "On dirait que vous n'avez pas encore ajouté de produits.",
+    "startShopping": "COMMENCER LES ACHATS",
+    "shoppingCart": "PANIER",
+    "orderSummary": "RÉSUMÉ DE LA COMMANDE",
+    "proceedToCheckout": "PROCÉDER AU PAIEMENT",
+    "continueShoppingLink": "CONTINUER LES ACHATS",
+    "freeShippingOver": "Livraison gratuite pour les commandes de plus de 200 EUR"
+  },
+  "carousel": {
+    "viewProduct": "Voir le produit"
+  },
+  "policy": {
+    "back": "Retour",
+    "privacy": "POLITIQUE DE CONFIDENTIALITÉ",
+    "delivery": "LIVRAISON ET RETOURS",
+    "refund": "POLITIQUE DE REMBOURSEMENT",
+    "lastUpdated": "Dernière mise à jour : janvier 2026.",
+    "contactUs": "contactez-nous"
+  }
+}

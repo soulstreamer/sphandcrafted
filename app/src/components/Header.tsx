@@ -79,7 +79,7 @@ export default function Header() {
             : "bg-transparent"
         }`}
       >
-        <div className="flex items-center justify-center h-16 md:h-20 px-0">
+        <div className="flex items-center justify-between md:justify-center h-16 md:h-20 px-4 md:px-0">
           {/* Left Links - Desktop */}
           <div className="hidden md:flex items-center gap-0">
             <button
@@ -105,11 +105,11 @@ export default function Header() {
           </div>
 
           {/* Logo */}
-          <Link to="/" className="flex-shrink-0 mx-6 group">
+          <Link to="/" className="flex-shrink-0 mx-auto md:mx-6 group">
             <img
               src="/images/logo.png"
               alt="SPHandcraft"
-              className="h-16 md:h-36 w-auto object-contain transition-all duration-300 group-hover:brightness-110 group-hover:drop-shadow-[0_0_12px_rgba(249,115,22,0.5)]"
+              className="h-12 md:h-36 w-auto object-contain transition-all duration-300 group-hover:brightness-110 group-hover:drop-shadow-[0_0_12px_rgba(249,115,22,0.5)]"
             />
           </Link>
 
@@ -188,8 +188,8 @@ export default function Header() {
             </button>
           </div>
 
-          {/* Mobile: Cart + Hamburger top-right */}
-          <div className="md:hidden flex items-center gap-1 ml-auto">
+          {/* Mobile: Cart + Hamburger + Language */}
+          <div className="md:hidden flex items-center gap-1">
             {/* Mobile Lang Switcher */}
             <div className="relative">
               <button

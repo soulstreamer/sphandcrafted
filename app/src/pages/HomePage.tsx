@@ -642,7 +642,7 @@ function AboutSection() {
       className="py-24 px-5 lg:px-20 bg-[#030303]"
     >
       <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <div className="about-img rounded-lg overflow-hidden mx-auto max-w-md lg:max-w-none">
+        <div className="about-img rounded-lg overflow-hidden mx-auto w-full max-w-sm lg:max-w-none">
           <img
             src="/images/about.jpg"
             alt="Artisan crafting a Damascus blade"
@@ -650,7 +650,7 @@ function AboutSection() {
             loading="lazy"
           />
         </div>
-        <div className="about-text text-center lg:text-left">
+        <div className="about-text text-center lg:text-left flex flex-col items-center lg:items-start">
           <h2 className="section-heading">{t("about.heading")}</h2>
           <p className="font-inter text-gray-300 text-base leading-relaxed mt-5">
             {t("about.p1")}
